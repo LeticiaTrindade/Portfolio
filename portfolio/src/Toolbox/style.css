@@ -1,0 +1,14 @@
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#toolbox{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+#toolbox img{
+
+    width: 50px;
+}

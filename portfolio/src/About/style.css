@@ -1,0 +1,53 @@
+section{
+    margin-bottom: 2rem;
+}
+section h3{
+    color:rgb(243, 65, 127);
+    font-size: 2rem;
+    text-shadow: 25px 8px 25px #f9a5f6;
+    margin-bottom: 3rem;
+}
+
+#welcome{
+text-align: center;
+margin: 7rem auto;
+}
+
+#welcome h1{
+    color:rgb(243, 65, 127);
+    font-size: 4rem;
+    text-shadow: 25px 8px 25px #f9a5f6;
+}
+
+#welcome p{
+    color: gray;
+
+}
+
+#about{
+    text-align: left;
+    width: 100%;
+    padding: 0rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+    
+}
+
+#about h4{
+    color:rgb(243, 65, 127);
+    font-size: 2rem;
+    text-shadow: 25px 8px 25px #f9a5f6;
+}
+
+#about div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#about img{
+   width: 350px;
+   border-radius: 1rem;
+   margin-left: 4rem;
+}

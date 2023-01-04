@@ -1,0 +1,51 @@
+.projeto{
+    margin: 0.5rem ;
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(232, 244, 252);
+    height: 100%;
+}
+.projeto:hover{
+    -webkit-box-shadow: 13px 14px 49px -28px rgba(128,24,121,1);
+    -moz-box-shadow: 13px 14px 49px -28px rgba(128,24,121,1);
+    box-shadow: 13px 14px 49px -28px rgba(128,24,121,1);
+}
+.projeto .name{
+    font-size: 2rem !important;
+    text-transform: uppercase;
+    padding-top: 0 !important;
+}
+.projeto .habilidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: .5rem;
+}
+.projeto .habilidades p{
+    background-color: rgba(128, 128, 128, 0.477);
+    border-radius: 1rem;
+    color: white;
+    padding: 2px 5px;
+}
+
+.projeto img{
+    width: 100%;
+    border-radius: 1rem;
+    border-width: 3px;
+    border-color: blue;
+}
+
+.projeto a:hover{
+    filter:brightness(1) !important;
+}
+button{
+    background-color: pink;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+    margin: 1rem;
+}

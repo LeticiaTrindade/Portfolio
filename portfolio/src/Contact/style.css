@@ -1,0 +1,80 @@
+#contact{
+    background-color: rgb(255, 239, 245);
+    padding: 5rem 0rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+.contacttext{
+    padding-right: 7rem;
+    width: 80%;
+}
+
+#contact i{
+    text-decoration: line-through;
+}
+#contact h1{
+    color:rgb(243, 65, 127);
+    font-size: 2rem;
+    text-shadow: 25px 8px 25px #f9a5f6;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem 1rem;
+}
+
+
+.contact-row{
+    display: flex;
+    flex-direction: row !important;
+}
+#rodape{
+    background-color: rgb(243, 65, 127);
+    padding: 2rem 5rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+#rodape p{
+    color: white;
+    margin-bottom: 0;
+}
+
+a:hover{
+    filter:brightness(0.8);
+}
+
+
+form{
+    width: 180%;
+}
+
+form ::placeholder{
+    color:rgb(202, 202, 202);
+    font-size: .8rem;
+}
+
+form input{
+    border-color: rgb(254, 194, 215);
+    border-radius: .4rem;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+form textarea{
+    border-color: rgb(254, 194, 215);
+    border-radius: .4rem;
+    width: 90%;
+    margin-bottom: 1rem;
+    min-height: 10rem;
+}
+
+form button{
+    margin-left: 0;
+    border-radius: 0.3rem;
+    background-color: rgb(243, 65, 127);
+}
